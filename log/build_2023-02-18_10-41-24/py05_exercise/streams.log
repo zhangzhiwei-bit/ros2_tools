@@ -1,0 +1,47 @@
+[1.429s] Invoking command in '/home/zzw/ws02_tools/src/py05_exercise': PYTHONPATH=/home/zzw/ws02_tools/build/py05_exercise/prefix_override:/home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_exercise build --build-base /home/zzw/ws02_tools/build/py05_exercise/build install --record /home/zzw/ws02_tools/build/py05_exercise/install.log --single-version-externally-managed
+[1.694s] running egg_info
+[1.695s] creating ../../build/py05_exercise/py05_exercise.egg-info
+[1.695s] writing ../../build/py05_exercise/py05_exercise.egg-info/PKG-INFO
+[1.696s] writing dependency_links to ../../build/py05_exercise/py05_exercise.egg-info/dependency_links.txt
+[1.696s] writing entry points to ../../build/py05_exercise/py05_exercise.egg-info/entry_points.txt
+[1.696s] writing requirements to ../../build/py05_exercise/py05_exercise.egg-info/requires.txt
+[1.697s] writing top-level names to ../../build/py05_exercise/py05_exercise.egg-info/top_level.txt
+[1.697s] writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[1.698s] reading manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[1.700s] writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[1.700s] running build
+[1.700s] running build_py
+[1.701s] creating /home/zzw/ws02_tools/build/py05_exercise/build
+[1.701s] creating /home/zzw/ws02_tools/build/py05_exercise/build/lib
+[1.701s] creating /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+[1.701s] copying py05_exercise/exer02_tf_broadcaster_py.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+[1.701s] copying py05_exercise/__init__.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+[1.702s] copying py05_exercise/exer03_tf_listener_py.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+[1.702s] copying py05_exercise/exer01_spawn_py.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+[1.702s] running install
+[1.715s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.715s]   warnings.warn(
+[1.715s] running install_lib
+[1.717s] creating /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[1.717s] copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/exer02_tf_broadcaster_py.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[1.718s] copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/__init__.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[1.718s] copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/exer03_tf_listener_py.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[1.718s] copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/exer01_spawn_py.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[1.719s] byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer02_tf_broadcaster_py.py to exer02_tf_broadcaster_py.cpython-310.pyc
+[1.719s] byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/__init__.py to __init__.cpython-310.pyc
+[1.720s] byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer03_tf_listener_py.py to exer03_tf_listener_py.cpython-310.pyc
+[1.720s] byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer01_spawn_py.py to exer01_spawn_py.cpython-310.pyc
+[1.721s] running install_data
+[1.722s] creating /home/zzw/ws02_tools/install/py05_exercise/share/ament_index
+[1.722s] creating /home/zzw/ws02_tools/install/py05_exercise/share/ament_index/resource_index
+[1.723s] creating /home/zzw/ws02_tools/install/py05_exercise/share/ament_index/resource_index/packages
+[1.723s] copying resource/py05_exercise -> /home/zzw/ws02_tools/install/py05_exercise/share/ament_index/resource_index/packages
+[1.723s] copying package.xml -> /home/zzw/ws02_tools/install/py05_exercise/share/py05_exercise
+[1.723s] running install_egg_info
+[1.726s] Copying ../../build/py05_exercise/py05_exercise.egg-info to /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise-0.0.0-py3.10.egg-info
+[1.728s] running install_scripts
+[1.754s] Installing exer01_spawn_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+[1.755s] Installing exer02_tf_broadcaster_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+[1.755s] Installing exer03_tf_listener_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+[1.755s] writing list of installed files to '/home/zzw/ws02_tools/build/py05_exercise/install.log'
+[1.791s] Invoked command in '/home/zzw/ws02_tools/src/py05_exercise' returned '0': PYTHONPATH=/home/zzw/ws02_tools/build/py05_exercise/prefix_override:/home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_exercise build --build-base /home/zzw/ws02_tools/build/py05_exercise/build install --record /home/zzw/ws02_tools/build/py05_exercise/install.log --single-version-externally-managed

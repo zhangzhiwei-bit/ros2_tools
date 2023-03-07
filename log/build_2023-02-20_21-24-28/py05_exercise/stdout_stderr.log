@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/py05_exercise/py05_exercise.egg-info/PKG-INFO
+writing dependency_links to ../../build/py05_exercise/py05_exercise.egg-info/dependency_links.txt
+writing entry points to ../../build/py05_exercise/py05_exercise.egg-info/entry_points.txt
+writing requirements to ../../build/py05_exercise/py05_exercise.egg-info/requires.txt
+writing top-level names to ../../build/py05_exercise/py05_exercise.egg-info/top_level.txt
+reading manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+running build
+running build_py
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+running install_data
+copying launch/follow.launch.xml -> /home/zzw/ws02_tools/install/py05_exercise/share/py05_exercise
+running install_egg_info
+removing '/home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py05_exercise/py05_exercise.egg-info to /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exer01_spawn_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+Installing exer02_tf_broadcaster_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+Installing exer03_tf_listener_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+writing list of installed files to '/home/zzw/ws02_tools/build/py05_exercise/install.log'

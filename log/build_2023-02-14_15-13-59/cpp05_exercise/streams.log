@@ -1,0 +1,63 @@
+[0.042s] Invoking command in '/home/zzw/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws02_tools/src/cpp05_exercise -DCMAKE_INSTALL_PREFIX=/home/zzw/ws02_tools/install/cpp05_exercise
+[3.000s] -- The C compiler identification is GNU 11.3.0
+[5.669s] -- The CXX compiler identification is GNU 11.3.0
+[7.047s] -- Detecting C compiler ABI info
+[8.021s] -- Detecting C compiler ABI info - done
+[8.033s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.033s] -- Detecting C compile features
+[8.092s] -- Detecting C compile features - done
+[8.112s] -- Detecting CXX compiler ABI info
+[8.961s] -- Detecting CXX compiler ABI info - done
+[8.973s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.973s] -- Detecting CXX compile features
+[8.974s] -- Detecting CXX compile features - done
+[9.304s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.903s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[11.058s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[13.048s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[13.113s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[13.171s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.727s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.733s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[18.849s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[22.972s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.561s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.658s] -- Looking for pthread.h
+[31.280s] -- Looking for pthread.h - found
+[31.280s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[32.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[32.032s] -- Found Threads: TRUE  
+[32.666s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[33.054s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[33.913s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[34.031s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[34.317s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[34.317s] -- Configured cppcheck include dirs: 
+[34.317s] -- Configured cppcheck exclude dirs and/or files: 
+[34.320s] -- Added test 'lint_cmake' to check CMake code style
+[34.322s] -- Added test 'uncrustify' to check C / C++ code style
+[34.322s] -- Configured uncrustify additional arguments: 
+[34.324s] -- Added test 'xmllint' to check XML markup files
+[34.342s] -- Configuring done
+[34.391s] -- Generating done
+[34.394s] -- Build files have been written to: /home/zzw/ws02_tools/build/cpp05_exercise
+[34.410s] Invoked command in '/home/zzw/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws02_tools/src/cpp05_exercise -DCMAKE_INSTALL_PREFIX=/home/zzw/ws02_tools/install/cpp05_exercise
+[34.412s] Invoking command in '/home/zzw/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8
+[34.465s] [ 33%] [32mBuilding CXX object CMakeFiles/exer02_tf_broadcaster.dir/src/exer02_tf_broadcaster.cpp.o[0m
+[34.465s] [ 33%] [32mBuilding CXX object CMakeFiles/exer03_tf_listener.dir/src/exer03_tf_listener.cpp.o[0m
+[34.466s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o[0m
+[34.521s] [01m[K/home/zzw/ws02_tools/src/cpp05_exercise/src/exer03_tf_listener.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[34.521s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[34.522s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[34.522s] compilation terminated.
+[34.523s] gmake[2]: *** [CMakeFiles/exer03_tf_listener.dir/build.make:76: CMakeFiles/exer03_tf_listener.dir/src/exer03_tf_listener.cpp.o] Error 1
+[34.523s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/exer03_tf_listener.dir/all] Error 2
+[34.523s] gmake[1]: *** Waiting for unfinished jobs....
+[39.920s] [ 66%] [32m[1mLinking CXX executable exer02_tf_broadcaster[0m
+[41.063s] [ 66%] Built target exer02_tf_broadcaster
+[41.233s] [ 83%] [32m[1mLinking CXX executable exer01_spawn[0m
+[41.963s] [ 83%] Built target exer01_spawn
+[41.964s] gmake: *** [Makefile:146: all] Error 2
+[41.967s] Invoked command in '/home/zzw/ws02_tools/build/cpp05_exercise' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8

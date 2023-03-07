@@ -1,0 +1,67 @@
+[0.025s] Invoking command in '/home/zzw/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_listener[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[3.545s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.547s]                  from [01m[K/home/zzw/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:2[m[K:
+[3.547s] [01m[K/home/zzw/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::on_timer()[m[K’:
+[3.547s] [01m[K/home/zzw/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.547s]    48 |         [01;35m[K"新坐标帧:父坐标系:%s,子坐标系:%s,偏移量:(%.2f,%.2f,%.2f)"[m[K,
+[3.547s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.548s] [01m[K/home/zzw/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:48:29:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.548s]    48 |         "新坐标帧:父坐标系:[01;36m[K%s[m[K,子坐标系:%s,偏移量:(%.2f,%.2f,%.2f)",
+[3.548s]       |                            [01;36m[K~^[m[K
+[3.548s]       |                             [01;36m[K|[m[K
+[3.548s]       |                             [01;36m[Kchar*[m[K
+[3.548s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.548s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.548s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.548s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.548s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.549s]                  from [01m[K/home/zzw/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:2[m[K:
+[3.549s] [01m[K/home/zzw/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_child_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.549s]    48 |         [01;35m[K"新坐标帧:父坐标系:%s,子坐标系:%s,偏移量:(%.2f,%.2f,%.2f)"[m[K,
+[3.549s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.550s] [01m[K/home/zzw/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:48:41:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.550s]    48 |         "新坐标帧:父坐标系:%s,子坐标系:[01;36m[K%s[m[K,偏移量:(%.2f,%.2f,%.2f)",
+[3.550s]       |                                        [01;36m[K~^[m[K
+[3.550s]       |                                         [01;36m[K|[m[K
+[3.550s]       |                                         [01;36m[Kchar*[m[K
+[12.611s] [100%] [32m[1mLinking CXX executable demo01_tf_listener[0m
+[13.896s] [100%] Built target demo01_tf_listener
+[13.915s] Invoked command in '/home/zzw/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[13.949s] Invoking command in '/home/zzw/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp04_tf_listener
+[13.958s] -- Install configuration: ""
+[13.958s] -- Installing: /home/zzw/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[13.962s] -- Set runtime path of "/home/zzw/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""
+[13.963s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[13.963s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[13.964s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[13.964s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[13.964s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[13.964s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[13.964s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[13.964s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[13.964s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[13.965s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[13.965s] -- Installing: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[13.975s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[13.975s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[13.976s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[13.976s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[13.978s] Invoked command in '/home/zzw/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp04_tf_listener

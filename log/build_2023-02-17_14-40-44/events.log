@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.001685] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.001842] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.001934] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.002017] (-) JobUnselected: {'identifier': 'cpp04_tf_listener'}
+[0.002098] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.002179] (-) JobUnselected: {'identifier': 'py02_rosbag'}
+[0.002261] (-) JobUnselected: {'identifier': 'py03_tf_broadcaster'}
+[0.002342] (-) JobUnselected: {'identifier': 'py04_tf_listener'}
+[0.002426] (-) JobUnselected: {'identifier': 'py05_exercise'}
+[0.002509] (cpp05_exercise) JobQueued: {'identifier': 'cpp05_exercise', 'dependencies': OrderedDict()}
+[0.002599] (cpp05_exercise) JobStarted: {'identifier': 'cpp05_exercise'}
+[0.099557] (-) TimerEvent: {}
+[0.120523] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'cmake'}
+[0.148386] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'build'}
+[0.150450] (cpp05_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzw/ws02_tools/build/cpp05_exercise', '--', '-j8', '-l8'], 'cwd': '/home/zzw/ws02_tools/build/cpp05_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('GIT_ASKPASS', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-4482fc38-ea41-40ef-adb9-6edf0ed43a22.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/815_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/julia/Julia-1.6.5/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/e/VMware/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/e/spss25/JRE/bin:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/e/go/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-8dd8ec8fa3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzw/ws02_tools/build/cpp05_exercise'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199842] (-) TimerEvent: {}
+[0.300610] (-) TimerEvent: {}
+[0.401223] (-) TimerEvent: {}
+[0.501796] (-) TimerEvent: {}
+[0.602485] (-) TimerEvent: {}
+[0.703183] (-) TimerEvent: {}
+[0.803918] (-) TimerEvent: {}
+[0.904686] (-) TimerEvent: {}
+[1.005515] (-) TimerEvent: {}
+[1.106444] (-) TimerEvent: {}
+[1.207547] (-) TimerEvent: {}
+[1.308397] (-) TimerEvent: {}
+[1.409178] (-) TimerEvent: {}
+[1.510237] (-) TimerEvent: {}
+[1.611150] (-) TimerEvent: {}
+[1.711948] (-) TimerEvent: {}
+[1.812814] (-) TimerEvent: {}
+[1.913399] (-) TimerEvent: {}
+[2.013981] (-) TimerEvent: {}
+[2.114674] (-) TimerEvent: {}
+[2.153028] (cpp05_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer01_spawn\x1b[0m\n'}
+[2.161760] (cpp05_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer02_tf_broadcaster\x1b[0m\n'}
+[2.186488] (cpp05_exercise) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/exer03_tf_listener.dir/src/exer03_tf_listener.cpp.o\x1b[0m\n'}
+[2.200336] (cpp05_exercise) StdoutLine: {'line': b'[ 50%] Built target exer01_spawn\n'}
+[2.209636] (cpp05_exercise) StdoutLine: {'line': b'[ 83%] Built target exer02_tf_broadcaster\n'}
+[2.215122] (-) TimerEvent: {}
+[2.315833] (-) TimerEvent: {}
+[2.416782] (-) TimerEvent: {}
+[2.517469] (-) TimerEvent: {}
+[2.618090] (-) TimerEvent: {}
+[2.718666] (-) TimerEvent: {}
+[2.819438] (-) TimerEvent: {}
+[2.920239] (-) TimerEvent: {}
+[3.020816] (-) TimerEvent: {}
+[3.121632] (-) TimerEvent: {}
+[3.222410] (-) TimerEvent: {}
+[3.323083] (-) TimerEvent: {}
+[3.423633] (-) TimerEvent: {}
+[3.524281] (-) TimerEvent: {}
+[3.625018] (-) TimerEvent: {}
+[3.726435] (-) TimerEvent: {}
+[3.827725] (-) TimerEvent: {}
+[3.929838] (-) TimerEvent: {}
+[4.030609] (-) TimerEvent: {}
+[4.131398] (-) TimerEvent: {}
+[4.232020] (-) TimerEvent: {}
+[4.332938] (-) TimerEvent: {}
+[4.433659] (-) TimerEvent: {}
+[4.534254] (-) TimerEvent: {}
+[4.635562] (-) TimerEvent: {}
+[4.736357] (-) TimerEvent: {}
+[4.837143] (-) TimerEvent: {}
+[4.937756] (-) TimerEvent: {}
+[5.038923] (-) TimerEvent: {}
+[5.139794] (-) TimerEvent: {}
+[5.240346] (-) TimerEvent: {}
+[5.340967] (-) TimerEvent: {}
+[5.442180] (-) TimerEvent: {}
+[5.543383] (-) TimerEvent: {}
+[5.643935] (-) TimerEvent: {}
+[5.744545] (-) TimerEvent: {}
+[5.845329] (-) TimerEvent: {}
+[5.945924] (-) TimerEvent: {}
+[6.046567] (-) TimerEvent: {}
+[6.147506] (-) TimerEvent: {}
+[6.248378] (-) TimerEvent: {}
+[6.349578] (-) TimerEvent: {}
+[6.450269] (-) TimerEvent: {}
+[6.551325] (-) TimerEvent: {}
+[6.651919] (-) TimerEvent: {}
+[6.752497] (-) TimerEvent: {}
+[6.853472] (-) TimerEvent: {}
+[6.954561] (-) TimerEvent: {}
+[7.055279] (-) TimerEvent: {}
+[7.156118] (-) TimerEvent: {}
+[7.257064] (-) TimerEvent: {}
+[7.358052] (-) TimerEvent: {}
+[7.459006] (-) TimerEvent: {}
+[7.559818] (-) TimerEvent: {}
+[7.660819] (-) TimerEvent: {}
+[7.761534] (-) TimerEvent: {}
+[7.862132] (-) TimerEvent: {}
+[7.962864] (-) TimerEvent: {}
+[8.063828] (-) TimerEvent: {}
+[8.164478] (-) TimerEvent: {}
+[8.265061] (-) TimerEvent: {}
+[8.365931] (-) TimerEvent: {}
+[8.466828] (-) TimerEvent: {}
+[8.567733] (-) TimerEvent: {}
+[8.668614] (-) TimerEvent: {}
+[8.769389] (-) TimerEvent: {}
+[8.870101] (-) TimerEvent: {}
+[8.970668] (-) TimerEvent: {}
+[9.071308] (-) TimerEvent: {}
+[9.172041] (-) TimerEvent: {}
+[9.272845] (-) TimerEvent: {}
+[9.373748] (-) TimerEvent: {}
+[9.474740] (-) TimerEvent: {}
+[9.575921] (-) TimerEvent: {}
+[9.677126] (-) TimerEvent: {}
+[9.777961] (-) TimerEvent: {}
+[9.878603] (-) TimerEvent: {}
+[9.979326] (-) TimerEvent: {}
+[10.080041] (-) TimerEvent: {}
+[10.180865] (-) TimerEvent: {}
+[10.281666] (-) TimerEvent: {}
+[10.382876] (-) TimerEvent: {}
+[10.483477] (-) TimerEvent: {}
+[10.584086] (-) TimerEvent: {}
+[10.684596] (-) TimerEvent: {}
+[10.785143] (-) TimerEvent: {}
+[10.885734] (-) TimerEvent: {}
+[10.986395] (-) TimerEvent: {}
+[11.087084] (-) TimerEvent: {}
+[11.187711] (-) TimerEvent: {}
+[11.288353] (-) TimerEvent: {}
+[11.388891] (-) TimerEvent: {}
+[11.489715] (-) TimerEvent: {}
+[11.590727] (-) TimerEvent: {}
+[11.691726] (-) TimerEvent: {}
+[11.792728] (-) TimerEvent: {}
+[11.893449] (-) TimerEvent: {}
+[11.994220] (-) TimerEvent: {}
+[12.094801] (-) TimerEvent: {}
+[12.195337] (-) TimerEvent: {}
+[12.295968] (-) TimerEvent: {}
+[12.396585] (-) TimerEvent: {}
+[12.497228] (-) TimerEvent: {}
+[12.597955] (-) TimerEvent: {}
+[12.698726] (-) TimerEvent: {}
+[12.799462] (-) TimerEvent: {}
+[12.900039] (-) TimerEvent: {}
+[13.000899] (-) TimerEvent: {}
+[13.101531] (-) TimerEvent: {}
+[13.202261] (-) TimerEvent: {}
+[13.302858] (-) TimerEvent: {}
+[13.403522] (-) TimerEvent: {}
+[13.503667] (cpp05_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer03_tf_listener\x1b[0m\n'}
+[13.504075] (-) TimerEvent: {}
+[13.604663] (-) TimerEvent: {}
+[13.705230] (-) TimerEvent: {}
+[13.806013] (-) TimerEvent: {}
+[13.906977] (-) TimerEvent: {}
+[14.007663] (-) TimerEvent: {}
+[14.108389] (-) TimerEvent: {}
+[14.210472] (-) TimerEvent: {}
+[14.311367] (-) TimerEvent: {}
+[14.412025] (-) TimerEvent: {}
+[14.512931] (-) TimerEvent: {}
+[14.613891] (-) TimerEvent: {}
+[14.714825] (-) TimerEvent: {}
+[14.815799] (-) TimerEvent: {}
+[14.917378] (-) TimerEvent: {}
+[15.019589] (-) TimerEvent: {}
+[15.120611] (-) TimerEvent: {}
+[15.221309] (-) TimerEvent: {}
+[15.321980] (-) TimerEvent: {}
+[15.422686] (-) TimerEvent: {}
+[15.523485] (-) TimerEvent: {}
+[15.625094] (-) TimerEvent: {}
+[15.731577] (-) TimerEvent: {}
+[15.843880] (-) TimerEvent: {}
+[15.944501] (-) TimerEvent: {}
+[16.045132] (-) TimerEvent: {}
+[16.146231] (-) TimerEvent: {}
+[16.174647] (cpp05_exercise) StdoutLine: {'line': b'[100%] Built target exer03_tf_listener\n'}
+[16.218221] (cpp05_exercise) CommandEnded: {'returncode': 0}
+[16.249526] (-) TimerEvent: {}
+[16.335304] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'install'}
+[16.349721] (-) TimerEvent: {}
+[16.360502] (cpp05_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzw/ws02_tools/build/cpp05_exercise'], 'cwd': '/home/zzw/ws02_tools/build/cpp05_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('GIT_ASKPASS', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-4482fc38-ea41-40ef-adb9-6edf0ed43a22.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/815_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/julia/Julia-1.6.5/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/e/VMware/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/e/spss25/JRE/bin:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/e/go/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-8dd8ec8fa3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzw/ws02_tools/build/cpp05_exercise'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.449955] (-) TimerEvent: {}
+[16.477795] (cpp05_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.532741] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn\n'}
+[16.550109] (-) TimerEvent: {}
+[16.555361] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster\n'}
+[16.597023] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener\n'}
+[16.599387] (cpp05_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener" to ""\n'}
+[16.599943] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/launch\n'}
+[16.600154] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/launch/follow.launch.py\n'}
+[16.600399] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise\n'}
+[16.600831] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise\n'}
+[16.601380] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh\n'}
+[16.601897] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv\n'}
+[16.602303] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh\n'}
+[16.602813] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv\n'}
+[16.603745] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash\n'}
+[16.604371] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh\n'}
+[16.604882] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh\n'}
+[16.605189] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv\n'}
+[16.605578] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv\n'}
+[16.611036] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise\n'}
+[16.611505] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake\n'}
+[16.611805] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake\n'}
+[16.612531] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml\n'}
+[16.614979] (cpp05_exercise) CommandEnded: {'returncode': 0}
+[16.650432] (-) TimerEvent: {}
+[16.751598] (-) TimerEvent: {}
+[16.852341] (-) TimerEvent: {}
+[16.957872] (-) TimerEvent: {}
+[16.995907] (cpp05_exercise) JobEnded: {'identifier': 'cpp05_exercise', 'rc': 0}
+[17.001075] (-) EventReactorShutdown: {}

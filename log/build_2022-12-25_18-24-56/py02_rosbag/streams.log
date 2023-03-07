@@ -1,0 +1,30 @@
+[1.617s] Invoking command in '/home/zzw/ws02_tools/src/py02_rosbag': PYTHONPATH=/home/zzw/ws02_tools/build/py02_rosbag/prefix_override:/home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/zzw/ws02_tools/build/py02_rosbag/build install --record /home/zzw/ws02_tools/build/py02_rosbag/install.log --single-version-externally-managed
+[1.909s] running egg_info
+[1.910s] writing ../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO
+[1.911s] writing dependency_links to ../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt
+[1.912s] writing entry points to ../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt
+[1.912s] writing requirements to ../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt
+[1.913s] writing top-level names to ../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt
+[1.916s] reading manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[1.927s] writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[1.927s] running build
+[1.927s] running build_py
+[1.928s] copying py02_rosbag/demo01_writer_py.py -> /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[1.928s] copying py02_rosbag/demo02_reader_py.py -> /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[1.930s] running install
+[1.938s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.939s]   warnings.warn(
+[1.939s] running install_lib
+[1.941s] copying /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/demo01_writer_py.py -> /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[1.941s] copying /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/demo02_reader_py.py -> /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[1.942s] byte-compiling /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/demo01_writer_py.py to demo01_writer_py.cpython-310.pyc
+[1.943s] byte-compiling /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/demo02_reader_py.py to demo02_reader_py.cpython-310.pyc
+[1.944s] running install_data
+[1.945s] running install_egg_info
+[1.948s] removing '/home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag-0.0.0-py3.10.egg-info' (and everything under it)
+[1.948s] Copying ../../build/py02_rosbag/py02_rosbag.egg-info to /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag-0.0.0-py3.10.egg-info
+[1.951s] running install_scripts
+[1.976s] Installing demo01_writer_py script to /home/zzw/ws02_tools/install/py02_rosbag/lib/py02_rosbag
+[1.976s] Installing demo02_reader_py script to /home/zzw/ws02_tools/install/py02_rosbag/lib/py02_rosbag
+[1.977s] writing list of installed files to '/home/zzw/ws02_tools/build/py02_rosbag/install.log'
+[2.026s] Invoked command in '/home/zzw/ws02_tools/src/py02_rosbag' returned '0': PYTHONPATH=/home/zzw/ws02_tools/build/py02_rosbag/prefix_override:/home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/zzw/ws02_tools/build/py02_rosbag/build install --record /home/zzw/ws02_tools/build/py02_rosbag/install.log --single-version-externally-managed

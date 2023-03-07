@@ -1,0 +1,54 @@
+[0.029s] Invoking command in '/home/zzw/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp02_rosbag -- -j8 -l8
+[0.067s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.292s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.789s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.792s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.804s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.948s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.951s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[20.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.937s] -- Found rosbag2_cpp: 0.15.3 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[25.454s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[25.546s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[26.099s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.100s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zzw/ws02_tools/src/cpp02_rosbag/include>
+[26.100s] -- Configured cppcheck exclude dirs and/or files: 
+[26.109s] -- Added test 'lint_cmake' to check CMake code style
+[26.111s] -- Added test 'uncrustify' to check C / C++ code style
+[26.112s] -- Configured uncrustify additional arguments: 
+[26.112s] -- Added test 'xmllint' to check XML markup files
+[26.117s] -- Configuring done
+[26.555s] -- Generating done
+[26.585s] -- Build files have been written to: /home/zzw/ws02_tools/build/cpp02_rosbag
+[26.630s] [35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[26.645s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o[0m
+[26.647s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o[0m
+[40.638s] [100%] [32m[1mLinking CXX executable demo01_writer[0m
+[40.639s] [100%] [32m[1mLinking CXX executable demo02_reader[0m
+[42.558s] [100%] Built target demo02_reader
+[42.572s] [100%] Built target demo01_writer
+[42.587s] Invoked command in '/home/zzw/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp02_rosbag -- -j8 -l8
+[42.638s] Invoking command in '/home/zzw/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp02_rosbag
+[42.649s] -- Install configuration: ""
+[42.668s] -- Installing: /home/zzw/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[42.669s] -- Set runtime path of "/home/zzw/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer" to ""
+[42.669s] -- Installing: /home/zzw/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[42.670s] -- Set runtime path of "/home/zzw/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader" to ""
+[42.671s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[42.671s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[42.671s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[42.672s] -- Installing: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[42.672s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[42.673s] -- Installing: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[42.673s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[42.673s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[42.674s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[42.674s] -- Installing: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[42.675s] -- Installing: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[42.676s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[42.676s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[42.677s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[42.678s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[42.680s] Invoked command in '/home/zzw/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp02_rosbag

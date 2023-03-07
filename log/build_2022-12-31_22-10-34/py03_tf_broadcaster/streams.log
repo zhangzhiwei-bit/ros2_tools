@@ -1,0 +1,39 @@
+[1.822s] Invoking command in '/home/zzw/ws02_tools/src/py03_tf_broadcaster': PYTHONPATH=/home/zzw/ws02_tools/build/py03_tf_broadcaster/prefix_override:/home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/zzw/ws02_tools/build/py03_tf_broadcaster/build install --record /home/zzw/ws02_tools/build/py03_tf_broadcaster/install.log --single-version-externally-managed
+[2.224s] running egg_info
+[2.224s] creating ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info
+[2.225s] writing ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/PKG-INFO
+[2.226s] writing dependency_links to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/dependency_links.txt
+[2.226s] writing entry points to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/entry_points.txt
+[2.227s] writing requirements to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/requires.txt
+[2.228s] writing top-level names to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/top_level.txt
+[2.229s] writing manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[2.234s] reading manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[2.235s] writing manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[2.236s] running build
+[2.236s] running build_py
+[2.236s] creating /home/zzw/ws02_tools/build/py03_tf_broadcaster/build
+[2.236s] creating /home/zzw/ws02_tools/build/py03_tf_broadcaster/build/lib
+[2.237s] creating /home/zzw/ws02_tools/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster
+[2.238s] copying py03_tf_broadcaster/demo01_tf_static_broadcaster_py.py -> /home/zzw/ws02_tools/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster
+[2.238s] copying py03_tf_broadcaster/__init__.py -> /home/zzw/ws02_tools/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster
+[2.239s] running install
+[2.269s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.269s]   warnings.warn(
+[2.270s] running install_lib
+[2.271s] creating /home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster
+[2.273s] copying /home/zzw/ws02_tools/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster/demo01_tf_static_broadcaster_py.py -> /home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster
+[2.273s] copying /home/zzw/ws02_tools/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster/__init__.py -> /home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster
+[2.275s] byte-compiling /home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster/demo01_tf_static_broadcaster_py.py to demo01_tf_static_broadcaster_py.cpython-310.pyc
+[2.277s] byte-compiling /home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster/__init__.py to __init__.cpython-310.pyc
+[2.277s] running install_data
+[2.279s] creating /home/zzw/ws02_tools/install/py03_tf_broadcaster/share/ament_index
+[2.280s] creating /home/zzw/ws02_tools/install/py03_tf_broadcaster/share/ament_index/resource_index
+[2.281s] creating /home/zzw/ws02_tools/install/py03_tf_broadcaster/share/ament_index/resource_index/packages
+[2.282s] copying resource/py03_tf_broadcaster -> /home/zzw/ws02_tools/install/py03_tf_broadcaster/share/ament_index/resource_index/packages
+[2.282s] copying package.xml -> /home/zzw/ws02_tools/install/py03_tf_broadcaster/share/py03_tf_broadcaster
+[2.282s] running install_egg_info
+[2.285s] Copying ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info to /home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster-0.0.0-py3.10.egg-info
+[2.289s] running install_scripts
+[2.328s] Installing demo01_tf_static_broadcaster_py script to /home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/py03_tf_broadcaster
+[2.330s] writing list of installed files to '/home/zzw/ws02_tools/build/py03_tf_broadcaster/install.log'
+[2.374s] Invoked command in '/home/zzw/ws02_tools/src/py03_tf_broadcaster' returned '0': PYTHONPATH=/home/zzw/ws02_tools/build/py03_tf_broadcaster/prefix_override:/home/zzw/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/zzw/ws02_tools/build/py03_tf_broadcaster/build install --record /home/zzw/ws02_tools/build/py03_tf_broadcaster/install.log --single-version-externally-managed

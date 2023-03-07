@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.001641] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.002847] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.002980] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.003132] (-) JobUnselected: {'identifier': 'cpp04_tf_listener'}
+[0.003229] (-) JobUnselected: {'identifier': 'cpp05_exercise'}
+[0.003324] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.003415] (-) JobUnselected: {'identifier': 'py02_rosbag'}
+[0.003508] (-) JobUnselected: {'identifier': 'py03_tf_broadcaster'}
+[0.004270] (-) JobUnselected: {'identifier': 'py04_tf_listener'}
+[0.007422] (-) JobUnselected: {'identifier': 'py05_exercise'}
+[0.007843] (cpp06_urdf) JobQueued: {'identifier': 'cpp06_urdf', 'dependencies': OrderedDict()}
+[0.007948] (cpp06_urdf) JobStarted: {'identifier': 'cpp06_urdf'}
+[0.085090] (cpp06_urdf) JobProgress: {'identifier': 'cpp06_urdf', 'progress': 'cmake'}
+[0.085885] (cpp06_urdf) Command: {'cmd': ['/usr/bin/cmake', '/home/zzw/ws02_tools/src/cpp06_urdf', '-DCMAKE_INSTALL_PREFIX=/home/zzw/ws02_tools/install/cpp06_urdf'], 'cwd': '/home/zzw/ws02_tools/build/cpp06_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('GIT_ASKPASS', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-12a16609-a371-479e-8e28-083390ace61b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/106_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/julia/Julia-1.6.5/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/e/VMware/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/e/spss25/JRE/bin:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/e/go/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-8dd8ec8fa3.sock'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzw/ws02_tools/build/cpp06_urdf'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.137878] (-) TimerEvent: {}
+[0.240179] (-) TimerEvent: {}
+[0.340715] (-) TimerEvent: {}
+[0.441254] (-) TimerEvent: {}
+[0.541794] (-) TimerEvent: {}
+[0.642436] (-) TimerEvent: {}
+[0.742943] (-) TimerEvent: {}
+[0.843634] (-) TimerEvent: {}
+[0.944397] (-) TimerEvent: {}
+[1.045028] (-) TimerEvent: {}
+[1.145671] (-) TimerEvent: {}
+[1.246550] (-) TimerEvent: {}
+[1.347356] (-) TimerEvent: {}
+[1.448007] (-) TimerEvent: {}
+[1.548675] (-) TimerEvent: {}
+[1.649305] (-) TimerEvent: {}
+[1.749791] (-) TimerEvent: {}
+[1.784519] (cpp06_urdf) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.850063] (-) TimerEvent: {}
+[1.950952] (-) TimerEvent: {}
+[2.051620] (-) TimerEvent: {}
+[2.152220] (-) TimerEvent: {}
+[2.252965] (-) TimerEvent: {}
+[2.353560] (-) TimerEvent: {}
+[2.454172] (-) TimerEvent: {}
+[2.554794] (-) TimerEvent: {}
+[2.655490] (-) TimerEvent: {}
+[2.756250] (-) TimerEvent: {}
+[2.857094] (-) TimerEvent: {}
+[2.957944] (-) TimerEvent: {}
+[3.058530] (-) TimerEvent: {}
+[3.159031] (-) TimerEvent: {}
+[3.259569] (-) TimerEvent: {}
+[3.360346] (-) TimerEvent: {}
+[3.461367] (-) TimerEvent: {}
+[3.561955] (-) TimerEvent: {}
+[3.662667] (-) TimerEvent: {}
+[3.763273] (-) TimerEvent: {}
+[3.863926] (-) TimerEvent: {}
+[3.964554] (-) TimerEvent: {}
+[4.065131] (-) TimerEvent: {}
+[4.133504] (cpp06_urdf) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[4.165329] (-) TimerEvent: {}
+[4.266084] (-) TimerEvent: {}
+[4.366711] (-) TimerEvent: {}
+[4.467376] (-) TimerEvent: {}
+[4.568019] (-) TimerEvent: {}
+[4.668741] (-) TimerEvent: {}
+[4.769368] (-) TimerEvent: {}
+[4.870026] (-) TimerEvent: {}
+[4.970672] (-) TimerEvent: {}
+[5.071388] (-) TimerEvent: {}
+[5.172018] (-) TimerEvent: {}
+[5.272743] (-) TimerEvent: {}
+[5.373279] (-) TimerEvent: {}
+[5.392623] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.473463] (-) TimerEvent: {}
+[5.573949] (-) TimerEvent: {}
+[5.674474] (-) TimerEvent: {}
+[5.775196] (-) TimerEvent: {}
+[5.876057] (-) TimerEvent: {}
+[5.976815] (-) TimerEvent: {}
+[6.077631] (-) TimerEvent: {}
+[6.134031] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.144279] (cpp06_urdf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.145236] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.176079] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.177787] (-) TimerEvent: {}
+[6.182650] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.277961] (-) TimerEvent: {}
+[6.378509] (-) TimerEvent: {}
+[6.479265] (-) TimerEvent: {}
+[6.579915] (-) TimerEvent: {}
+[6.680641] (-) TimerEvent: {}
+[6.781194] (-) TimerEvent: {}
+[6.807311] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.817855] (cpp06_urdf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.818293] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.818699] (cpp06_urdf) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.881373] (-) TimerEvent: {}
+[6.981972] (-) TimerEvent: {}
+[6.989387] (cpp06_urdf) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.082149] (-) TimerEvent: {}
+[7.182673] (-) TimerEvent: {}
+[7.283116] (-) TimerEvent: {}
+[7.382725] (cpp06_urdf) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[7.383105] (-) TimerEvent: {}
+[7.483605] (-) TimerEvent: {}
+[7.584310] (-) TimerEvent: {}
+[7.684832] (-) TimerEvent: {}
+[7.755224] (cpp06_urdf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.785010] (-) TimerEvent: {}
+[7.885574] (-) TimerEvent: {}
+[7.986072] (-) TimerEvent: {}
+[7.986434] (cpp06_urdf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.989727] (cpp06_urdf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.995243] (cpp06_urdf) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.000103] (cpp06_urdf) StdoutLine: {'line': b'-- Generating done\n'}
+[8.001009] (cpp06_urdf) StdoutLine: {'line': b'-- Build files have been written to: /home/zzw/ws02_tools/build/cpp06_urdf\n'}
+[8.006410] (cpp06_urdf) CommandEnded: {'returncode': 0}
+[8.007567] (cpp06_urdf) JobProgress: {'identifier': 'cpp06_urdf', 'progress': 'build'}
+[8.010398] (cpp06_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzw/ws02_tools/build/cpp06_urdf', '--', '-j8', '-l8'], 'cwd': '/home/zzw/ws02_tools/build/cpp06_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('GIT_ASKPASS', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-12a16609-a371-479e-8e28-083390ace61b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/106_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/julia/Julia-1.6.5/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/e/VMware/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/e/spss25/JRE/bin:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/e/go/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-8dd8ec8fa3.sock'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzw/ws02_tools/build/cpp06_urdf'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.052764] (cpp06_urdf) CommandEnded: {'returncode': 0}
+[8.078554] (cpp06_urdf) JobProgress: {'identifier': 'cpp06_urdf', 'progress': 'install'}
+[8.086822] (cpp06_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzw/ws02_tools/build/cpp06_urdf'], 'cwd': '/home/zzw/ws02_tools/build/cpp06_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('GIT_ASKPASS', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-12a16609-a371-479e-8e28-083390ace61b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/106_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zzw/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/julia/Julia-1.6.5/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/e/VMware/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/e/spss25/JRE/bin:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/e/go/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-8dd8ec8fa3.sock'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzw/ws02_tools/build/cpp06_urdf'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.088776] (-) TimerEvent: {}
+[8.093999] (cpp06_urdf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.094322] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch\n'}
+[8.094731] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz\n'}
+[8.095089] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf\n'}
+[8.095822] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf\n'}
+[8.096600] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro\n'}
+[8.096806] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/meshes\n'}
+[8.096955] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf\n'}
+[8.097808] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf\n'}
+[8.098357] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh\n'}
+[8.099048] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv\n'}
+[8.099282] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh\n'}
+[8.099912] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv\n'}
+[8.100528] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash\n'}
+[8.101158] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh\n'}
+[8.101693] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh\n'}
+[8.102176] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv\n'}
+[8.102336] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv\n'}
+[8.102910] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf\n'}
+[8.103460] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake\n'}
+[8.104033] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake\n'}
+[8.104182] (cpp06_urdf) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.xml\n'}
+[8.106192] (cpp06_urdf) CommandEnded: {'returncode': 0}
+[8.189020] (-) TimerEvent: {}
+[8.228865] (cpp06_urdf) JobEnded: {'identifier': 'cpp06_urdf', 'rc': 0}
+[8.231050] (-) EventReactorShutdown: {}

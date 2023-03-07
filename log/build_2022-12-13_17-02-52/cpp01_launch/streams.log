@@ -1,0 +1,31 @@
+[0.113s] Invoking command in '/home/zzw/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp01_launch -- -j8 -l8
+[3.196s] Invoked command in '/home/zzw/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp01_launch -- -j8 -l8
+[3.267s] Invoking command in '/home/zzw/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp01_launch
+[3.284s] -- Install configuration: ""
+[3.285s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch
+[3.286s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/yaml
+[3.287s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/yaml/yaml01_helloworld_launch.yaml
+[3.288s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py
+[3.289s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py03_cmd_launch.py
+[3.290s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py02_node_launch.py
+[3.291s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py01_helloworld_launch.py
+[3.291s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/xml
+[3.292s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/xml/xm01_helloworld_launch.xml
+[3.293s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/config
+[3.293s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/config/turtle2.yaml
+[3.294s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[3.294s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[3.294s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[3.294s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[3.295s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[3.295s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[3.295s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[3.296s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[3.296s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[3.297s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[3.297s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv
+[3.308s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[3.309s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[3.310s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[3.311s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.xml
+[3.324s] Invoked command in '/home/zzw/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp01_launch

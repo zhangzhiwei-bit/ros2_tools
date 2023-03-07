@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.003171] (cpp01_launch) JobQueued: {'identifier': 'cpp01_launch', 'dependencies': OrderedDict()}
+[0.004265] (py01_launch) JobQueued: {'identifier': 'py01_launch', 'dependencies': OrderedDict()}
+[0.004435] (cpp01_launch) JobStarted: {'identifier': 'cpp01_launch'}
+[0.023848] (py01_launch) JobStarted: {'identifier': 'py01_launch'}
+[0.041289] (cpp01_launch) JobProgress: {'identifier': 'cpp01_launch', 'progress': 'cmake'}
+[0.042890] (cpp01_launch) JobProgress: {'identifier': 'cpp01_launch', 'progress': 'build'}
+[0.044188] (cpp01_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzw/ws02_tools/build/cpp01_launch', '--', '-j8', '-l8'], 'cwd': '/home/zzw/ws02_tools/build/cpp01_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('OLDPWD', '/home/zzw'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/2333_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.1.23.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/VMware/bin/:/mnt/e/spss25/JRE/bin:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/zzw/ws02_tools/build/cpp01_launch'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099230] (-) TimerEvent: {}
+[0.152722] (cpp01_launch) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199574] (-) TimerEvent: {}
+[0.300132] (-) TimerEvent: {}
+[0.400693] (-) TimerEvent: {}
+[0.401883] (cpp01_launch) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500909] (-) TimerEvent: {}
+[0.601772] (-) TimerEvent: {}
+[0.704390] (-) TimerEvent: {}
+[0.805000] (-) TimerEvent: {}
+[0.880516] (cpp01_launch) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.886115] (cpp01_launch) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.897725] (cpp01_launch) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.905156] (-) TimerEvent: {}
+[0.919002] (cpp01_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.944861] (cpp01_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.005397] (-) TimerEvent: {}
+[1.024928] (py01_launch) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py01_launch', 'build', '--build-base', '/home/zzw/ws02_tools/build/py01_launch/build', 'install', '--record', '/home/zzw/ws02_tools/build/py01_launch/install.log', '--single-version-externally-managed'], 'cwd': '/home/zzw/ws02_tools/src/py01_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zzw', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zzw', 'OLDPWD': '/home/zzw', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zzw', 'NAME': 'LAPTOP-48A1KBTU', 'WSL_INTEROP': '/run/WSL/2333_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.1.23.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/VMware/bin/:/mnt/e/spss25/JRE/bin:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/zzw/ws02_tools/build/py01_launch', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zzw/ws02_tools/build/py01_launch/prefix_override:/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.042899] (cpp01_launch) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.045320] (cpp01_launch) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.105571] (-) TimerEvent: {}
+[1.206369] (-) TimerEvent: {}
+[1.307142] (-) TimerEvent: {}
+[1.316183] (py01_launch) StdoutLine: {'line': b'running egg_info\n'}
+[1.319227] (py01_launch) StdoutLine: {'line': b'writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO\n'}
+[1.320386] (py01_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt\n'}
+[1.321264] (py01_launch) StdoutLine: {'line': b'writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt\n'}
+[1.322003] (py01_launch) StdoutLine: {'line': b'writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt\n'}
+[1.322650] (py01_launch) StdoutLine: {'line': b'writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt\n'}
+[1.327036] (py01_launch) StdoutLine: {'line': b"reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'\n"}
+[1.328787] (py01_launch) StdoutLine: {'line': b"writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'\n"}
+[1.329697] (py01_launch) StdoutLine: {'line': b'running build\n'}
+[1.330484] (py01_launch) StdoutLine: {'line': b'running build_py\n'}
+[1.331139] (py01_launch) StdoutLine: {'line': b'running install\n'}
+[1.332044] (py01_launch) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.332566] (py01_launch) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.333137] (py01_launch) StdoutLine: {'line': b'running install_lib\n'}
+[1.334374] (py01_launch) StdoutLine: {'line': b'running install_data\n'}
+[1.335228] (py01_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.337742] (py01_launch) StdoutLine: {'line': b"removing '/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.338944] (py01_launch) StdoutLine: {'line': b'Copying ../../build/py01_launch/py01_launch.egg-info to /home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info\n'}
+[1.343557] (py01_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[1.376785] (py01_launch) StdoutLine: {'line': b"writing list of installed files to '/home/zzw/ws02_tools/build/py01_launch/install.log'\n"}
+[1.407428] (-) TimerEvent: {}
+[1.425231] (py01_launch) CommandEnded: {'returncode': 0}
+[1.457987] (py01_launch) JobEnded: {'identifier': 'py01_launch', 'rc': 0}
+[1.507755] (-) TimerEvent: {}
+[1.608408] (-) TimerEvent: {}
+[1.709023] (-) TimerEvent: {}
+[1.809626] (-) TimerEvent: {}
+[1.910255] (-) TimerEvent: {}
+[2.010857] (-) TimerEvent: {}
+[2.111520] (-) TimerEvent: {}
+[2.212190] (-) TimerEvent: {}
+[2.312834] (-) TimerEvent: {}
+[2.413486] (-) TimerEvent: {}
+[2.514030] (-) TimerEvent: {}
+[2.614704] (-) TimerEvent: {}
+[2.715450] (-) TimerEvent: {}
+[2.816129] (-) TimerEvent: {}
+[2.916854] (-) TimerEvent: {}
+[3.017521] (-) TimerEvent: {}
+[3.118272] (-) TimerEvent: {}
+[3.218846] (-) TimerEvent: {}
+[3.319468] (-) TimerEvent: {}
+[3.420170] (-) TimerEvent: {}
+[3.520912] (-) TimerEvent: {}
+[3.621766] (-) TimerEvent: {}
+[3.722445] (-) TimerEvent: {}
+[3.823100] (-) TimerEvent: {}
+[3.923734] (-) TimerEvent: {}
+[4.024413] (-) TimerEvent: {}
+[4.125104] (-) TimerEvent: {}
+[4.225721] (-) TimerEvent: {}
+[4.326372] (-) TimerEvent: {}
+[4.427139] (-) TimerEvent: {}
+[4.527957] (-) TimerEvent: {}
+[4.628814] (-) TimerEvent: {}
+[4.729706] (-) TimerEvent: {}
+[4.830418] (-) TimerEvent: {}
+[4.931072] (-) TimerEvent: {}
+[5.031759] (-) TimerEvent: {}
+[5.132485] (-) TimerEvent: {}
+[5.233218] (-) TimerEvent: {}
+[5.333745] (-) TimerEvent: {}
+[5.434279] (-) TimerEvent: {}
+[5.535099] (-) TimerEvent: {}
+[5.635967] (-) TimerEvent: {}
+[5.736677] (-) TimerEvent: {}
+[5.837873] (-) TimerEvent: {}
+[5.938526] (-) TimerEvent: {}
+[6.039200] (-) TimerEvent: {}
+[6.139804] (-) TimerEvent: {}
+[6.240605] (-) TimerEvent: {}
+[6.341363] (-) TimerEvent: {}
+[6.442067] (-) TimerEvent: {}
+[6.542706] (-) TimerEvent: {}
+[6.643315] (-) TimerEvent: {}
+[6.744108] (-) TimerEvent: {}
+[6.844917] (-) TimerEvent: {}
+[6.945685] (-) TimerEvent: {}
+[7.046467] (-) TimerEvent: {}
+[7.147117] (-) TimerEvent: {}
+[7.247856] (-) TimerEvent: {}
+[7.348458] (-) TimerEvent: {}
+[7.449103] (-) TimerEvent: {}
+[7.549770] (-) TimerEvent: {}
+[7.650547] (-) TimerEvent: {}
+[7.751144] (-) TimerEvent: {}
+[7.851872] (-) TimerEvent: {}
+[7.952648] (-) TimerEvent: {}
+[8.053451] (-) TimerEvent: {}
+[8.154168] (-) TimerEvent: {}
+[8.255002] (-) TimerEvent: {}
+[8.355749] (-) TimerEvent: {}
+[8.456624] (-) TimerEvent: {}
+[8.557435] (-) TimerEvent: {}
+[8.658217] (-) TimerEvent: {}
+[8.758913] (-) TimerEvent: {}
+[8.859614] (-) TimerEvent: {}
+[8.960156] (-) TimerEvent: {}
+[9.060813] (-) TimerEvent: {}
+[9.161548] (-) TimerEvent: {}
+[9.262218] (-) TimerEvent: {}
+[9.362911] (-) TimerEvent: {}
+[9.463683] (-) TimerEvent: {}
+[9.564438] (-) TimerEvent: {}
+[9.665152] (-) TimerEvent: {}
+[9.765979] (-) TimerEvent: {}
+[9.866641] (-) TimerEvent: {}
+[9.967569] (-) TimerEvent: {}
+[10.068351] (-) TimerEvent: {}
+[10.169144] (-) TimerEvent: {}
+[10.269766] (-) TimerEvent: {}
+[10.370515] (-) TimerEvent: {}
+[10.471189] (-) TimerEvent: {}
+[10.571887] (-) TimerEvent: {}
+[10.672475] (-) TimerEvent: {}
+[10.773094] (-) TimerEvent: {}
+[10.873750] (-) TimerEvent: {}
+[10.974549] (-) TimerEvent: {}
+[11.075195] (-) TimerEvent: {}
+[11.176013] (-) TimerEvent: {}
+[11.276636] (-) TimerEvent: {}
+[11.377307] (-) TimerEvent: {}
+[11.478081] (-) TimerEvent: {}
+[11.578735] (-) TimerEvent: {}
+[11.679341] (-) TimerEvent: {}
+[11.779905] (-) TimerEvent: {}
+[11.880708] (-) TimerEvent: {}
+[11.981395] (-) TimerEvent: {}
+[12.082024] (-) TimerEvent: {}
+[12.182869] (-) TimerEvent: {}
+[12.283602] (-) TimerEvent: {}
+[12.384286] (-) TimerEvent: {}
+[12.484930] (-) TimerEvent: {}
+[12.585610] (-) TimerEvent: {}
+[12.686469] (-) TimerEvent: {}
+[12.787097] (-) TimerEvent: {}
+[12.887756] (-) TimerEvent: {}
+[12.988316] (-) TimerEvent: {}
+[13.088937] (-) TimerEvent: {}
+[13.189488] (-) TimerEvent: {}
+[13.290126] (-) TimerEvent: {}
+[13.390798] (-) TimerEvent: {}
+[13.491422] (-) TimerEvent: {}
+[13.592051] (-) TimerEvent: {}
+[13.692785] (-) TimerEvent: {}
+[13.793423] (-) TimerEvent: {}
+[13.894066] (-) TimerEvent: {}
+[13.994661] (-) TimerEvent: {}
+[14.095369] (-) TimerEvent: {}
+[14.195989] (-) TimerEvent: {}
+[14.296647] (-) TimerEvent: {}
+[14.397252] (-) TimerEvent: {}
+[14.497991] (-) TimerEvent: {}
+[14.598610] (-) TimerEvent: {}
+[14.699221] (-) TimerEvent: {}
+[14.799952] (-) TimerEvent: {}
+[14.900553] (-) TimerEvent: {}
+[15.001152] (-) TimerEvent: {}
+[15.101983] (-) TimerEvent: {}
+[15.184309] (cpp01_launch) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.202173] (-) TimerEvent: {}
+[15.302658] (-) TimerEvent: {}
+[15.402537] (cpp01_launch) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.402835] (-) TimerEvent: {}
+[15.497813] (cpp01_launch) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.499779] (cpp01_launch) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.502975] (-) TimerEvent: {}
+[15.503498] (cpp01_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.537158] (cpp01_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[15.541006] (cpp01_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/zzw/ws02_tools/build/cpp01_launch\n'}
+[15.572950] (cpp01_launch) CommandEnded: {'returncode': 0}
+[15.597491] (cpp01_launch) JobProgress: {'identifier': 'cpp01_launch', 'progress': 'install'}
+[15.603160] (-) TimerEvent: {}
+[15.608141] (cpp01_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzw/ws02_tools/build/cpp01_launch'], 'cwd': '/home/zzw/ws02_tools/build/cpp01_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('OLDPWD', '/home/zzw'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/2333_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.1.23.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/VMware/bin/:/mnt/e/spss25/JRE/bin:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/zzw/ws02_tools/build/cpp01_launch'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.617855] (cpp01_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.619049] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/{PROJECT_NAME}/launch\n'}
+[15.620689] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/{PROJECT_NAME}/launch/yml\n'}
+[15.621298] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/{PROJECT_NAME}/launch/py\n'}
+[15.622673] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/{PROJECT_NAME}/launch/xml\n'}
+[15.625153] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch\n'}
+[15.625624] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch\n'}
+[15.625789] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh\n'}
+[15.625882] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv\n'}
+[15.626294] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh\n'}
+[15.626831] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv\n'}
+[15.627194] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash\n'}
+[15.627825] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh\n'}
+[15.628119] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh\n'}
+[15.628389] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv\n'}
+[15.628751] (cpp01_launch) StdoutLine: {'line': b'-- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv\n'}
+[15.629031] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch\n'}
+[15.629452] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake\n'}
+[15.629789] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake\n'}
+[15.630212] (cpp01_launch) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.xml\n'}
+[15.632446] (cpp01_launch) CommandEnded: {'returncode': 0}
+[15.691024] (cpp01_launch) JobEnded: {'identifier': 'cpp01_launch', 'rc': 0}
+[15.694113] (-) EventReactorShutdown: {}

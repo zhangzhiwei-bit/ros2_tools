@@ -1,0 +1,3 @@
+[console_scripts]
+demo01_tf_listener_py = py04_tf_listener.demo01_tf_listener_py:main
+

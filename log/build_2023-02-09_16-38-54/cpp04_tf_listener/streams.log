@@ -1,0 +1,28 @@
+[0.037s] Invoking command in '/home/zzw/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzw/ws02_tools/install/py04_tf_listener:/home/zzw/ws02_tools/install/py03_tf_broadcaster:/home/zzw/ws02_tools/install/py02_rosbag:/home/zzw/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target demo02_msg_filter[0m
+[0.147s] [ 50%] Built target demo01_tf_listener
+[0.157s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_msg_filter.dir/src/demo02_msg_filter.cpp.o[0m
+[14.053s] [100%] [32m[1mLinking CXX executable demo02_msg_filter[0m
+[15.306s] [100%] Built target demo02_msg_filter
+[15.317s] Invoked command in '/home/zzw/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzw/ws02_tools/install/py04_tf_listener:/home/zzw/ws02_tools/install/py03_tf_broadcaster:/home/zzw/ws02_tools/install/py02_rosbag:/home/zzw/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[15.356s] Invoking command in '/home/zzw/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzw/ws02_tools/install/py04_tf_listener:/home/zzw/ws02_tools/install/py03_tf_broadcaster:/home/zzw/ws02_tools/install/py02_rosbag:/home/zzw/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp04_tf_listener
+[15.363s] -- Install configuration: ""
+[15.364s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[15.364s] -- Installing: /home/zzw/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter
+[15.369s] -- Set runtime path of "/home/zzw/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter" to ""
+[15.370s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[15.370s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[15.370s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[15.370s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[15.371s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[15.371s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[15.371s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[15.371s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[15.371s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[15.371s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[15.372s] -- Installing: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[15.372s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[15.372s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[15.372s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[15.372s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[15.375s] Invoked command in '/home/zzw/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzw/ws02_tools/install/py04_tf_listener:/home/zzw/ws02_tools/install/py03_tf_broadcaster:/home/zzw/ws02_tools/install/py02_rosbag:/home/zzw/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp04_tf_listener

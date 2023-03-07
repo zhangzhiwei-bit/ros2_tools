@@ -1,0 +1,59 @@
+<launch>
+    <arg name="turtle_back" default="turtle_back"/>
+    <arg name="turtle_left" default="turtle_left"/>
+    <arg name="turtle_right" default="turtle_right"/>
+    <node pkg="turtlesim" exec="turtlesim_node"/>
+
+    <node pkg="py05_exercise" exec="exer01_spawn_py" name="$(var turtle_back)">
+        <param name="x" value="2.0"/>
+        <param name="y" value="2.0"/>
+        <param name="theta" value="1.57"/>
+        <param name="turtle_name" value="$(var turtle_back)"/>
+    </node>
+    <node pkg="py05_exercise" exec="exer01_spawn_py" name="$(var turtle_back)">
+        <param name="x" value="3.0"/>
+        <param name="y" value="9.0"/>
+        <param name="theta" value="1.57"/>
+        <param name="turtle_name" value="$(var turtle_left)"/>
+    </node>
+    <node pkg="py05_exercise" exec="exer01_spawn_py" name="$(var turtle_back)">
+        <param name="x" value="4.0"/>
+        <param name="y" value="2.0"/>
+        <param name="theta" value="1.57"/>
+        <param name="turtle_name" value="$(var turtle_right)"/>
+    </node>
+
+
+    <!-- 发布坐标变换 -->
+    <node pkg="py05_exercise" exec="exer02_tf_broadcaster_py" name="turtle1_world"/>
+    
+    <node pkg="py05_exercise" exec="exer02_tf_broadcaster_py" name="back_world">
+        <param name="turtle" value="$(var turtle_back)"/>
+    </node>
+    <node pkg="py05_exercise" exec="exer02_tf_broadcaster_py" name="back_world">
+        <param name="turtle" value="$(var turtle_left)"/>
+    </node>
+    <node pkg="py05_exercise" exec="exer02_tf_broadcaster_py" name="back_world">
+        <param name="turtle" value="$(var turtle_right)"/>
+    </node>
+
+    <!-- 静态坐标变换 -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="goal_back" args="--frame-id turtle1 --child-frame-id goal_back --x -1.5"/>
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="goal_left" args="--frame-id turtle1 --child-frame-id goal_left --y 1.5"/>
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="goal_right" args="--frame-id turtle1 --child-frame-id goal_right --y -1.5"/>
+
+
+    <!-- 监听坐标变换 -->
+    <node pkg="py05_exercise" exec="exer03_tf_listener_py" name="back_listener">
+        <param name="father_frame" value="$(var turtle_back)"/>
+        <param name="child_frame" value="goal_back"/>
+    </node>
+    <node pkg="py05_exercise" exec="exer03_tf_listener_py" name="left_listener">
+        <param name="father_frame" value="$(var turtle_left)"/>
+        <param name="child_frame" value="goal_left"/>
+    </node>
+    <node pkg="py05_exercise" exec="exer03_tf_listener_py" name="right_listener">
+        <param name="father_frame" value="$(var turtle_right)"/>
+        <param name="child_frame" value="goal_right"/>
+    </node>
+</launch>

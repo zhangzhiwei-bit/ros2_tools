@@ -1,0 +1,22 @@
+[2.001s] Invoking command in '/home/zzw/ws02_tools/src/py01_launch': PYTHONPATH=/home/zzw/ws02_tools/build/py01_launch/prefix_override:/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/zzw/ws02_tools/build/py01_launch/build install --record /home/zzw/ws02_tools/build/py01_launch/install.log --single-version-externally-managed
+[2.627s] running egg_info
+[2.631s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[2.632s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[2.633s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[2.634s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[2.634s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[2.637s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[2.666s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[2.666s] running build
+[2.667s] running build_py
+[2.667s] running install
+[2.688s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.688s]   warnings.warn(
+[2.689s] running install_lib
+[2.691s] running install_data
+[2.692s] running install_egg_info
+[2.694s] removing '/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[2.695s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info
+[2.711s] running install_scripts
+[2.759s] writing list of installed files to '/home/zzw/ws02_tools/build/py01_launch/install.log'
+[2.817s] Invoked command in '/home/zzw/ws02_tools/src/py01_launch' returned '0': PYTHONPATH=/home/zzw/ws02_tools/build/py01_launch/prefix_override:/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/zzw/ws02_tools/build/py01_launch/build install --record /home/zzw/ws02_tools/build/py01_launch/install.log --single-version-externally-managed

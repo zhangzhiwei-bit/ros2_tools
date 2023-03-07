@@ -1,0 +1,4 @@
+[console_scripts]
+demo01_writer_py = py02_rosbag.demo01_writer_py:main
+demo02_reader_py = py02_rosbag.demo02_reader_py:main
+

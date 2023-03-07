@@ -1,0 +1,28 @@
+[0.086s] Invoking command in '/home/zzw/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8
+[3.175s] [ 33%] Built target exer01_spawn
+[3.223s] [100%] Built target exer02_tf_broadcaster
+[3.223s] [100%] Built target exer03_tf_listener
+[3.236s] Invoked command in '/home/zzw/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8
+[3.279s] Invoking command in '/home/zzw/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp05_exercise
+[3.292s] -- Install configuration: ""
+[3.334s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn
+[3.458s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster
+[3.511s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener
+[3.511s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/launch
+[3.512s] -- Installing: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/launch/follow.launch.py
+[3.513s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise
+[3.513s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise
+[3.513s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh
+[3.514s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv
+[3.514s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh
+[3.514s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv
+[3.514s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash
+[3.514s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh
+[3.514s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh
+[3.514s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv
+[3.514s] -- Installing: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv
+[3.548s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise
+[3.548s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake
+[3.549s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake
+[3.549s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml
+[3.553s] Invoked command in '/home/zzw/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp05_exercise

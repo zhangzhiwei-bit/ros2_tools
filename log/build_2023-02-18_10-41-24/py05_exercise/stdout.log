@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/py05_exercise/py05_exercise.egg-info
+writing ../../build/py05_exercise/py05_exercise.egg-info/PKG-INFO
+writing dependency_links to ../../build/py05_exercise/py05_exercise.egg-info/dependency_links.txt
+writing entry points to ../../build/py05_exercise/py05_exercise.egg-info/entry_points.txt
+writing requirements to ../../build/py05_exercise/py05_exercise.egg-info/requires.txt
+writing top-level names to ../../build/py05_exercise/py05_exercise.egg-info/top_level.txt
+writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+reading manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zzw/ws02_tools/build/py05_exercise/build
+creating /home/zzw/ws02_tools/build/py05_exercise/build/lib
+creating /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+copying py05_exercise/exer02_tf_broadcaster_py.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+copying py05_exercise/__init__.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+copying py05_exercise/exer03_tf_listener_py.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+copying py05_exercise/exer01_spawn_py.py -> /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise
+running install
+running install_lib
+creating /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/exer02_tf_broadcaster_py.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/__init__.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/exer03_tf_listener_py.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+copying /home/zzw/ws02_tools/build/py05_exercise/build/lib/py05_exercise/exer01_spawn_py.py -> /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer02_tf_broadcaster_py.py to exer02_tf_broadcaster_py.cpython-310.pyc
+byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer03_tf_listener_py.py to exer03_tf_listener_py.cpython-310.pyc
+byte-compiling /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer01_spawn_py.py to exer01_spawn_py.cpython-310.pyc
+running install_data
+creating /home/zzw/ws02_tools/install/py05_exercise/share/ament_index
+creating /home/zzw/ws02_tools/install/py05_exercise/share/ament_index/resource_index
+creating /home/zzw/ws02_tools/install/py05_exercise/share/ament_index/resource_index/packages
+copying resource/py05_exercise -> /home/zzw/ws02_tools/install/py05_exercise/share/ament_index/resource_index/packages
+copying package.xml -> /home/zzw/ws02_tools/install/py05_exercise/share/py05_exercise
+running install_egg_info
+Copying ../../build/py05_exercise/py05_exercise.egg-info to /home/zzw/ws02_tools/install/py05_exercise/lib/python3.10/site-packages/py05_exercise-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exer01_spawn_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+Installing exer02_tf_broadcaster_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+Installing exer03_tf_listener_py script to /home/zzw/ws02_tools/install/py05_exercise/lib/py05_exercise
+writing list of installed files to '/home/zzw/ws02_tools/build/py05_exercise/install.log'

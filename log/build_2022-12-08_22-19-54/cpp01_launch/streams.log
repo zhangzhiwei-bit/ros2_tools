@@ -1,0 +1,40 @@
+[0.041s] Invoking command in '/home/zzw/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp01_launch -- -j8 -l8
+[0.063s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.777s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.781s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.790s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.943s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.394s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.581s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.659s] -- Added test 'lint_cmake' to check CMake code style
+[15.660s] -- Added test 'xmllint' to check XML markup files
+[15.661s] -- Configuring done
+[15.675s] -- Generating done
+[15.678s] -- Build files have been written to: /home/zzw/ws02_tools/build/cpp01_launch
+[15.707s] Invoked command in '/home/zzw/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp01_launch -- -j8 -l8
+[15.741s] Invoking command in '/home/zzw/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp01_launch
+[15.750s] -- Install configuration: ""
+[15.750s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch
+[15.751s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/yml
+[15.751s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py
+[15.752s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/xml
+[15.753s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[15.754s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[15.754s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[15.755s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[15.755s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[15.755s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[15.756s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[15.756s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[15.756s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[15.757s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[15.759s] -- Installing: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv
+[15.763s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[15.763s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[15.766s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[15.767s] -- Up-to-date: /home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.xml
+[15.768s] Invoked command in '/home/zzw/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp01_launch

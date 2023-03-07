@@ -1,0 +1,39 @@
+[1.537s] Invoking command in '/home/zzw/ws02_tools/src/py02_rosbag': PYTHONPATH=/home/zzw/ws02_tools/build/py02_rosbag/prefix_override:/home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/zzw/ws02_tools/build/py02_rosbag/build install --record /home/zzw/ws02_tools/build/py02_rosbag/install.log --single-version-externally-managed
+[1.958s] running egg_info
+[1.959s] creating ../../build/py02_rosbag/py02_rosbag.egg-info
+[1.960s] writing ../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO
+[1.961s] writing dependency_links to ../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt
+[1.961s] writing entry points to ../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt
+[1.962s] writing requirements to ../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt
+[1.962s] writing top-level names to ../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt
+[1.963s] writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[1.968s] reading manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[1.970s] writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[1.970s] running build
+[1.970s] running build_py
+[1.971s] creating /home/zzw/ws02_tools/build/py02_rosbag/build
+[1.971s] creating /home/zzw/ws02_tools/build/py02_rosbag/build/lib
+[1.971s] creating /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[1.972s] copying py02_rosbag/demo01_writer_py.py -> /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[1.972s] copying py02_rosbag/__init__.py -> /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[1.973s] running install
+[1.974s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.974s]   warnings.warn(
+[1.974s] running install_lib
+[1.976s] creating /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[1.977s] copying /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/demo01_writer_py.py -> /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[1.977s] copying /home/zzw/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/__init__.py -> /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[1.978s] byte-compiling /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/demo01_writer_py.py to demo01_writer_py.cpython-310.pyc
+[1.979s] byte-compiling /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/__init__.py to __init__.cpython-310.pyc
+[1.979s] running install_data
+[1.980s] creating /home/zzw/ws02_tools/install/py02_rosbag/share/ament_index
+[1.981s] creating /home/zzw/ws02_tools/install/py02_rosbag/share/ament_index/resource_index
+[1.981s] creating /home/zzw/ws02_tools/install/py02_rosbag/share/ament_index/resource_index/packages
+[1.982s] copying resource/py02_rosbag -> /home/zzw/ws02_tools/install/py02_rosbag/share/ament_index/resource_index/packages
+[1.982s] copying package.xml -> /home/zzw/ws02_tools/install/py02_rosbag/share/py02_rosbag
+[1.982s] running install_egg_info
+[1.985s] Copying ../../build/py02_rosbag/py02_rosbag.egg-info to /home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag-0.0.0-py3.10.egg-info
+[1.987s] running install_scripts
+[2.028s] Installing demo01_writer_py script to /home/zzw/ws02_tools/install/py02_rosbag/lib/py02_rosbag
+[2.029s] writing list of installed files to '/home/zzw/ws02_tools/build/py02_rosbag/install.log'
+[2.094s] Invoked command in '/home/zzw/ws02_tools/src/py02_rosbag' returned '0': PYTHONPATH=/home/zzw/ws02_tools/build/py02_rosbag/prefix_override:/home/zzw/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/zzw/ws02_tools/build/py02_rosbag/build install --record /home/zzw/ws02_tools/build/py02_rosbag/install.log --single-version-externally-managed

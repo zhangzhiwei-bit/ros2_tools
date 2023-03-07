@@ -1,0 +1,190 @@
+[5.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.097s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcaf92e02b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcaf9c50820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcaf9c50820>>)
+[5.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.434s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zzw/ws02_tools'
+[5.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['ignore', 'ignore_ament_install']
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ignore'
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ignore_ament_install'
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['colcon_pkg']
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'colcon_pkg'
+[5.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['colcon_meta']
+[5.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'colcon_meta'
+[5.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['ros']
+[5.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ros'
+[5.503s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_launch' with type 'ros.ament_cmake' and name 'cpp01_launch'
+[5.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extensions ['ignore', 'ignore_ament_install']
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extension 'ignore'
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extension 'ignore_ament_install'
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extensions ['colcon_pkg']
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extension 'colcon_pkg'
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extensions ['colcon_meta']
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extension 'colcon_meta'
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extensions ['ros']
+[5.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_launch) by extension 'ros'
+[5.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py01_launch' with type 'ros.ament_python' and name 'py01_launch'
+[5.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.718s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[5.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_args' from command line to 'None'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_target' from command line to 'None'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_clean_first' from command line to 'False'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_force_configure' from command line to 'False'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'ament_cmake_args' from command line to 'None'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[5.839s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.839s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzw/ws02_tools/build/cpp01_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzw/ws02_tools/install/cpp01_launch', 'merge_install': False, 'path': '/home/zzw/ws02_tools/src/cpp01_launch', 'symlink_install': False, 'test_result_base': None}
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'cmake_args' from command line to 'None'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'cmake_target' from command line to 'None'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'cmake_clean_first' from command line to 'False'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'cmake_force_configure' from command line to 'False'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'ament_cmake_args' from command line to 'None'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'py01_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.842s] DEBUG:colcon.colcon_core.verb:Building package 'py01_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzw/ws02_tools/build/py01_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzw/ws02_tools/install/py01_launch', 'merge_install': False, 'path': '/home/zzw/ws02_tools/src/py01_launch', 'symlink_install': False, 'test_result_base': None}
+[5.844s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.851s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zzw/ws02_tools/src/cpp01_launch' with build type 'ament_cmake'
+[5.851s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zzw/ws02_tools/src/cpp01_launch'
+[5.917s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.931s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zzw/ws02_tools/src/py01_launch' with build type 'ament_python'
+[5.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_launch', 'ament_prefix_path')
+[5.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/hook/ament_prefix_path.ps1'
+[5.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/hook/ament_prefix_path.dsv'
+[5.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/hook/ament_prefix_path.sh'
+[5.946s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzw/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/zzw/ws02_tools/install/cpp01_launch
+[6.476s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zzw/ws02_tools/src/py01_launch'
+[6.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzw/ws02_tools/src/py01_launch': PYTHONPATH=/home/zzw/ws02_tools/build/py01_launch/prefix_override:/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/zzw/ws02_tools/build/py01_launch/build install --record /home/zzw/ws02_tools/build/py01_launch/install.log --single-version-externally-managed
+[8.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzw/ws02_tools/src/py01_launch' returned '0': PYTHONPATH=/home/zzw/ws02_tools/build/py01_launch/prefix_override:/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/zzw/ws02_tools/build/py01_launch/build install --record /home/zzw/ws02_tools/build/py01_launch/install.log --single-version-externally-managed
+[8.957s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/py01_launch' for CMake module files
+[8.957s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/py01_launch' for CMake config files
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/py01_launch/lib'
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/py01_launch/bin'
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/py01_launch/lib/pkgconfig/py01_launch.pc'
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/py01_launch/lib/python3.10/site-packages'
+[8.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_launch', 'pythonpath')
+[8.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/hook/pythonpath.ps1'
+[8.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/hook/pythonpath.dsv'
+[8.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/hook/pythonpath.sh'
+[8.965s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/py01_launch/bin'
+[8.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py01_launch)
+[8.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/package.ps1'
+[8.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/package.dsv'
+[8.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/package.sh'
+[8.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/package.bash'
+[8.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/py01_launch/share/py01_launch/package.zsh'
+[9.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzw/ws02_tools/install/py01_launch/share/colcon-core/packages/py01_launch)
+[36.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzw/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/zzw/ws02_tools/install/cpp01_launch
+[36.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzw/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp01_launch -- -j8 -l8
+[36.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzw/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp01_launch -- -j8 -l8
+[36.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzw/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp01_launch
+[36.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_launch)
+[36.131s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch' for CMake module files
+[36.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzw/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws02_tools/build/cpp01_launch
+[36.133s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch' for CMake config files
+[36.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_launch', 'cmake_prefix_path')
+[36.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.ps1'
+[36.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.dsv'
+[36.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.sh'
+[36.138s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/bin'
+[36.138s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/lib/pkgconfig/cpp01_launch.pc'
+[36.138s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/lib/python3.10/site-packages'
+[36.139s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/bin'
+[36.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.ps1'
+[36.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv'
+[36.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.sh'
+[36.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.bash'
+[36.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.zsh'
+[36.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzw/ws02_tools/install/cpp01_launch/share/colcon-core/packages/cpp01_launch)
+[36.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_launch)
+[36.176s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch' for CMake module files
+[36.176s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch' for CMake config files
+[36.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_launch', 'cmake_prefix_path')
+[36.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.ps1'
+[36.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.dsv'
+[36.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.sh'
+[36.181s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/bin'
+[36.181s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/lib/pkgconfig/cpp01_launch.pc'
+[36.181s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/lib/python3.10/site-packages'
+[36.182s] Level 1:colcon.colcon_core.environment:checking '/home/zzw/ws02_tools/install/cpp01_launch/bin'
+[36.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.ps1'
+[36.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv'
+[36.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.sh'
+[36.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.bash'
+[36.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzw/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.zsh'
+[36.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzw/ws02_tools/install/cpp01_launch/share/colcon-core/packages/cpp01_launch)
+[36.188s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.190s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.321s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[41.544s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[41.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzw/ws02_tools/install/local_setup.ps1'
+[41.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzw/ws02_tools/install/_local_setup_util_ps1.py'
+[41.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzw/ws02_tools/install/setup.ps1'
+[41.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzw/ws02_tools/install/local_setup.sh'
+[41.610s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzw/ws02_tools/install/_local_setup_util_sh.py'
+[41.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzw/ws02_tools/install/setup.sh'
+[41.622s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzw/ws02_tools/install/local_setup.bash'
+[41.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzw/ws02_tools/install/setup.bash'
+[41.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzw/ws02_tools/install/local_setup.zsh'
+[41.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzw/ws02_tools/install/setup.zsh'

@@ -1,0 +1,2 @@
+Invoking command in '/home/zzw/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8
+Invoked command in '/home/zzw/ws02_tools/build/cpp05_exercise' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8
