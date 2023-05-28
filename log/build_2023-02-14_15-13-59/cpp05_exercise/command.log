@@ -1,4 +1,0 @@
-Invoking command in '/home/zzw/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws02_tools/src/cpp05_exercise -DCMAKE_INSTALL_PREFIX=/home/zzw/ws02_tools/install/cpp05_exercise
-Invoked command in '/home/zzw/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws02_tools/src/cpp05_exercise -DCMAKE_INSTALL_PREFIX=/home/zzw/ws02_tools/install/cpp05_exercise
-Invoking command in '/home/zzw/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8
-Invoked command in '/home/zzw/ws02_tools/build/cpp05_exercise' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws02_tools/build/cpp05_exercise -- -j8 -l8

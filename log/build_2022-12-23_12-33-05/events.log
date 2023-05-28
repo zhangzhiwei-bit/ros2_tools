@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000730] (-) JobUnselected: {'identifier': 'cpp01_launch'}
-[0.001196] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
-[0.001623] (-) JobUnselected: {'identifier': 'py01_launch'}
-[0.001884] (-) JobUnselected: {'identifier': 'py02_rosbag'}
-[0.001998] (-) EventReactorShutdown: {}

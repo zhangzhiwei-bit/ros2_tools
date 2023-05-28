@@ -1,9 +1,0 @@
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/uninstall.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/cpp06_urdf_uninstall.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/test.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/edit_cache.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/rebuild_cache.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/list_install_components.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/install.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/install/local.dir
-/home/zzw/ws02_tools/build/cpp06_urdf/CMakeFiles/install/strip.dir
